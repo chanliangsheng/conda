@@ -5,10 +5,10 @@ conda env list
 conda  create  --name  env_name python=3.9
 # 创建python版本为3.9的虚拟环境
 
-activate  env_name
+conda activate env_name
 # 激活某个环境
 
-deactivate
+conda deactivate
 # 退出环境
 
 conda  create  --name  new_env_name  --clone  old_env_name
